@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 body {
@@ -66,7 +67,8 @@ header nav ul li {
 }
 
 header nav ul li.active {
-  background: #0e6c66;
+  /* background: #0e6c66; */
+  color: #0e6c66;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -198,6 +200,7 @@ img {
 
 .dots label:hover {
   background: #0e6c66;
+  /* color: #0e6c66; */
 }
 
 .dots label:nth-child(2) {
