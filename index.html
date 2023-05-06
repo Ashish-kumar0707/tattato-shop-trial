@@ -6,7 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+
 </head>
 
 <body>
@@ -28,14 +30,16 @@
           <ul id="menuitem">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#gall">Gallery</a></li>
-            <li><a href="#services">services</a></li>
+            <li><a href="./gallary.html">Gallery</a></li>
+            <li><a href="./services.html">services</a></li>
             <li><a href="account.html">Contact</a></li>
 
             <!-- <i class="fa fa-search"></i> -->
           </ul>
         </nav>
-        <span class="fa fa-bars" onclick="menutoggle()"></span>
+        <!-- <span class="fa fa-bars" onclick="menutoggle()"></span> -->
+        <span class="bi bi-bars" onclick="menutoggle()" ></span>
+        
       </div>
 
       <div class="home flex">
@@ -256,10 +260,14 @@
           </div>
         </div>
         <div class="right">
-          <i class="fa fa-facebook"></i>
+          <!-- <i class="fa fa-facebook"></i>
           <i class="fa fa-instagram"></i>
           <i class="fa fa-twitter"></i>
-          <i class="fa fa-youtube"></i>
+          <i class="fa fa-youtube"></i> -->
+          <span class="bi bi-facebook"></span>
+          <span class="bi bi-instagram"></span>
+          <span class="bi bi-twitter"></span>
+          <span class="bi bi-youtube"></span>
         </div>
       </div>
 
@@ -268,9 +276,13 @@
 
         <div class="item">
           <h2>Contact Developers</h2>
-          <i class="fa fa-phone"></i>
+          <!-- <i class="fa fa-phone"></i> -->
+          <span class="bi bi-phone"></span>
+
           <label>Call +01 123456987</label><br><br>
           <i class="fa fa-envelope"></i>
+          <span class="bi bi-envelope"></span>
+
           <label>yourmail@.com</label>
         </div>
 
@@ -294,11 +306,17 @@
 
         <div class="item">
           <h2>Contact Us</h2>
-          <i class="fa fa-map"></i>
+          <!-- <i class="fa fa-map"></i> -->
+          <span class="bi bi-map"></span>
+
           <label>Location</label><br><br>
-          <i class="fa fa-phone"></i>
+          <!-- <i class="fa fa-phone"></i> -->
+          <span class="bi bi-phone"></span>
+
           <label>Call +01 123456987</label><br><br>
-          <i class="fa fa-envelope"></i>
+          <!-- <i class="fa fa-envelope"></i> -->
+          <span class="bi bi-envelope"></span>
+
           <label>yourmail@.com</label>
         </div>
   <!-- margin-inline: auto; -->
@@ -310,8 +328,8 @@
             <ul id="menuitem2">
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#gall">Gallery</a></li>
-              <li><a href="#services">services</a></li>
+              <li><a href="./gallary.html">Gallery</a></li>
+              <li><a href="./services.html">services</a></li>
               <li><a href="account.html">Contact</a></li>
   
               <!-- <i class="fa fa-search"></i> -->
@@ -324,7 +342,7 @@
   </footer>
 
 
-  <script src="./js/toogle.js"></script>
+<script src="./js/toogle.js"></script>
 </body>
 
 </html>

@@ -111,12 +111,12 @@ header nav ul li.active {
   border-radius: 5px;
 }
 
-header nav i {
+header nav span {
   transition: 0.5s;
   cursor: pointer;
 }
 
-header nav i:hover {
+header nav span:hover {
   color: #0e6c66;
 }
 
@@ -465,7 +465,8 @@ footer .left .arrow {
   line-height: 40px;
 }
 
-footer .right i {
+footer .right span {
+  display: inline-block;
   font-size: 20px;
   width: 50px;
   height: 50px;
@@ -476,7 +477,7 @@ footer .right i {
   transition: 0.5s;
 }
 
-footer .right i:hover {
+footer .right span:hover {
   border: 1px solid #0e6c66;
   color: #0e6c66;
 }
@@ -512,7 +513,7 @@ footer iframe {
   text-align: center;
 }
 
-.legal i {
+.legal span {
   color: #0e6c66;
 }
 
@@ -535,7 +536,7 @@ footer iframe {
     margin-top: 70px;
   }
 
-  footer .right i {
+  footer .right span {
     margin-bottom: 20px;
   }
 
@@ -628,7 +629,7 @@ footer iframe {
   border-radius: 5px;
 }
 
-#lastbox .footer-item i {
+#lastbox .footer-item span {
   transition: 0.5s;
   cursor: pointer;
 }
