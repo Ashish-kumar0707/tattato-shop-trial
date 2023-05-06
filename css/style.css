@@ -144,7 +144,7 @@ header .navbar span {
   header .logo .logo-name h2{
     width: fit-content;
     display: block;
-    margin-block-start: 0px;
+    margin-block-start: 26px;
   }
   header nav ul {
     position: absolute;
