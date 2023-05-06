@@ -45,19 +45,26 @@ header .logo {
   display: flex;
   flex-direction: row;
   height: 10vh;
+  /* gap: 3px; */
   
 }
 header .logo .logo-image{
   width: 3em;
+  height: 10vh;
+  margin-inline-end: 40px;
+  margin-inline-start: -40px;
+
+
   /* height: auto; */
 }
 
 header .logo .logo-image img{
   width: fit-content;
   display: block;  
-  width: 3em;
+  width: 100px;
   height: auto;
-  margin-block-start: 22px;
+  margin-block-start: auto;
+  
 }
 header .logo .logo-name h2{
   width: fit-content;
@@ -130,6 +137,15 @@ header .navbar span {
 }
 
 @media only screen and (max-width:768px) {
+
+  .logo{
+    margin-bottom: 20px;
+  }
+  header .logo .logo-name h2{
+    width: fit-content;
+    display: block;
+    margin-block-start: 16px;
+  }
   header nav ul {
     position: absolute;
     top: 70px;
@@ -421,7 +437,7 @@ footer {
 }
 
 footer .left {
-  margin-top: 70px;
+  margin-top: 50px;
   width: 70%;
 }
 
@@ -580,4 +596,103 @@ footer iframe {
   p {
     font-size: 12px;
   }
+}
+
+#lastbox{
+  display: flex;
+  flex-direction: column;
+}
+#lastbox .footer-item ul{
+  /* list-style: none;
+   */
+  display: flex;
+  flex-direction: row;
+  justify-content:  center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+
+
+
+#lastbox .footer-item ul li {
+  display: inline-block;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+#lastbox .footer-item ul li.active {
+  /* background: #0e6c66; */
+  color: #0e6c66;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+#lastbox .footer-item i {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#lastbox .footer-item i:hover {
+  color: #0e6c66;
+}
+
+#lastbox .footer-item ul li a:hover {
+  /* background: #0e6c66; */
+  color: #0e6c66;
+
+  padding: 5px 0px 5px 10px;
+  border-radius: 5px;
+}
+#lastbox .footer-item ul li a {
+  /* background: #0e6c66; */
+  color: white;
+
+  /* padding: 0px 10px; */
+  padding: 0px 0px 0px 0px;
+  border-radius: 5px;
+}
+
+/* header .navbar span {
+  text-align: center;
+  margin-left: 20px;
+  color: white;
+  font-size: 25px;
+  display: none;
+} */
+
+
+
+
+
+
+/* //css for footer logo */
+
+
+
+
+.footer-logo {
+  /* padding: 10px; */
+  width: 130px;
+  /* height: 70px; */
+  /* align-items: center; */
+  margin-inline: auto;
+}
+
+.footer-logo img{
+  /* padding: 10px; */
+  display: block;
+  margin-inline: auto;
+  
+  width: 130px;
+  /* height: 70px; */
+}
+
+
+
+/* // css for footer tagline /////////////////////////////////// */
+#tagline h2{
+  color: #0e6c66;
+  /* pa-bottom: 115px; */
+  /* padding-bottom: 115px; */
 }
