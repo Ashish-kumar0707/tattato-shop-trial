@@ -528,7 +528,7 @@ footer iframe {
   }
 
   .home .right img {
-    width: 100%;
+    width: 50%;
     height: 100%;
   }
 
@@ -693,7 +693,7 @@ footer iframe {
 
 /* // css for footer tagline /////////////////////////////////// */
 #tagline h2{
-  color: #0e6c66;
+  color: white;
   /* pa-bottom: 115px; */
   /* padding-bottom: 115px; */
 }

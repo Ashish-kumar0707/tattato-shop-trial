@@ -37,14 +37,18 @@ video {
 }
 
 .card-list .card img {
-   height: 250px;
+   height: 310px;
+}
+.card-list .card video {
+   height: 310px;
 }
 
+
 .card-list .card .card-body {
-   height: 250px;
+   height: 60px;
    background-color: #0e6c66;
    color: white;
-   height: 170px;
+   /* height: 170px; */
 }
 
 
